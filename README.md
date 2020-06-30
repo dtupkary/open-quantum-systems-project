@@ -9,3 +9,14 @@ This model is the exact same model studied in the above paper. The entire system
 ### Description of Code
 
 
+
+
+
+
+
+
+
+
+
+
+##### Things to do : Make a Pdf doing all the derivations of this paper. Add it to the files section. 

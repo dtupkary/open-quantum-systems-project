@@ -9,7 +9,19 @@ This model is the exact same model studied in the above paper. The entire system
 ### Description of Code
 All variables are the same as those defined in the [paper](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.062114) . 
 
-**correlations_fermions** : Code simulates time evolution by computing the correlation function evolution using RK4, and plots the occupation numbers as a function of time, for various values of g. This code is heavily commented, and is easy to understand.
+**correlations_fermions** : Code simulates time evolution by computing the correlation function evolution using RK4, for fermions, and plots the occupation numbers as a function of time, for various values of g. This code is heavily commented, and is easy to understand.
+
+**correlations_bosons** : Code simulates time evolution by computing the correlation function evolution using RK4, for bosons, and plots the occupation numbers as a function of time, for various values of g. Code can be easily modified to compute steadystates properties as a function of g. 
+
+**exactnumerics_fermions** :
+
+**exactnumerics_bosons** :
+
+**redfield_bosons** :
+
+**fig2_lindblad** :
+
+**fig3_lindblad** :
 
 
 

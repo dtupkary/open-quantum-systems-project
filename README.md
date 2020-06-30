@@ -7,7 +7,9 @@ The first set of scripts in this repository were written to reproduce the result
 This model is the exact same model studied in the above paper. The entire system consists of a tight binding model of either fermions or bosons. N sites in the middle of the chain of sites are taken to be the system, while the rest of the sites (which may be finite or infinite) constitutes the bath. N is taken to be 2 in all our codes. The standard regimes required for the validity of master equations, such as low system bath coupling, and small reservoir correlation times are valid. We use 4 different methods to study our system, the local-Lindblad QME, the Redfield QME (or the correlation function evolution of the above paper), the Quantum Langevin method (for steady-state properties), and exact numerics. 
 
 ### Description of Code
+All variables are the same as those defined in the [paper](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.062114) . 
 
+**correlations_fermions** : Code simulates time evolution by computing the correlation function evolution using RK4, and plots the occupation numbers as a function of time, for various values of g. This code is heavily commented, and is easy to understand.
 
 
 

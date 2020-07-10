@@ -27,6 +27,7 @@ All variables are the same as those defined in the [paper](https://journals.aps.
 
 **redfield_ss** : Code computes directly, the steady state of the full redfield equation, using QuTiPs solvers. 
 
+**langevin** : Code computes steady state correlation matrix from the quantum Langevin formalism. Refer to notes for the theory
 
 
 

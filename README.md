@@ -13,19 +13,19 @@ All variables are the same as those defined in the [paper](https://journals.aps.
 
 **correlations_bosons** : Code simulates time evolution by computing the correlation function evolution using RK4, for bosons, and plots the occupation numbers as a function of time, for various values of g. Code can be easily modified to compute steadystates properties as a function of g. 
 
-**exactnumerics_fermions** :
+**exactnumerics_fermions** : Code simulates the time evolution of the entire system+bath setup, for fermions, by calculating evolution of correlation matrix of the entire system under unitary evolution. Theory is included in notes. 
 
-**exactnumerics_bosons** :
+**exactnumerics_bosons** : Code simulates the time evolution of the entire system+bath setup, for bosons, by calculating evolution of correlation matrix of the entire system under unitary evolution. Theory is included in notes. 
 
-**redfield_bosons** :
+**redfield_bosons** : Code simulates the full Redfield equation evolution of the system, for bosons, using a truncated Hilbert space of each boson. Redfield evolution is computed using RK4.
 
-**fig2_lindblad** :
+**redfield_fig_2** : Code computes time evolution of the full Redfield equation, and reproduces fig2 of the paper. (Redfield portion only)
 
-**fig3_lindblad** :
+**redfield_fig_3** : Code computes time evolution of the full Redfield equation, and reproduces fig3 of the paper. (Redfield portion only)
 
+**redfield_fig_4** : Code computes time evolution of the full Redfield equation, and reproduces fig4 of the paper. (Redfield portion only)
 
-
-
+**redfield_ss** : Code computes directly, the steady state of the full redfield equation, using QuTiPs solvers. 
 
 
 
